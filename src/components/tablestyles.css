@@ -1,0 +1,22 @@
+.ReactTable {
+    width: 100%;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  .ReactTable .rt-th,
+  .ReactTable .rt-td {
+    padding: 8px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  .ReactTable .rt-th {
+    background-color: #f7f7f7;
+    font-weight: bold;
+  }
+  .ReactTable .rt-td:last-child,
+  .ReactTable .rt-th:last-child {
+    border-right: 0;
+  }
+  
+    
